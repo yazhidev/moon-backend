@@ -1,4 +1,4 @@
-package bean;
+package cn.yazhidev.moon.bean;
 
 import java.io.Serializable;
 

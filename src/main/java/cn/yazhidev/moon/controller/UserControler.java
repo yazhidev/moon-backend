@@ -1,6 +1,6 @@
-package controller;
+package cn.yazhidev.moon.controller;
 
-import bean.User;
+import cn.yazhidev.moon.bean.User;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
