@@ -2,13 +2,13 @@ package cn.yazhidev.moon.bean;
 
 import java.io.Serializable;
 
-public class User implements Serializable {
+public class User22 implements Serializable {
     private static final long serialVersionUID = 1L;
 
     private Integer id;
     private String username;
 
-    public User(Integer id, String username) {
+    public User22(Integer id, String username) {
         this.id = id;
         this.username = username;
     }
