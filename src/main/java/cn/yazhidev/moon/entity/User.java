@@ -2,9 +2,9 @@ package cn.yazhidev.moon.entity;
 
 public class User {
     private int id;
-    private String userName;
-    private String nickName;
-    private String headUrl;
+    private String user_name;
+    private String nick_name;
+    private String head_url;
     private int gender;
 
     public int getId() {
@@ -15,28 +15,28 @@ public class User {
         this.id = id;
     }
 
-    public String getUserName() {
-        return userName;
+    public String getUser_name() {
+        return user_name;
     }
 
-    public void setUserName(String userName) {
-        this.userName = userName;
+    public void setUser_name(String user_name) {
+        this.user_name = user_name;
     }
 
-    public String getNickName() {
-        return nickName;
+    public String getNick_name() {
+        return nick_name;
     }
 
-    public void setNickName(String nickName) {
-        this.nickName = nickName;
+    public void setNick_name(String nick_name) {
+        this.nick_name = nick_name;
     }
 
-    public String getHeadUrl() {
-        return headUrl;
+    public String getHead_url() {
+        return head_url;
     }
 
-    public void setHeadUrl(String headUrl) {
-        this.headUrl = headUrl;
+    public void setHead_url(String head_url) {
+        this.head_url = head_url;
     }
 
     public int getGender() {
